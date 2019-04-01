@@ -1114,12 +1114,6 @@ button:focus {
       .single_member:hover .author_decs {
         bottom: 30px; } }
 
-#team .team-area {
-  padding-bottom: 90px; }
-#team .single_member {
-  margin-bottom: 30px; }
-  #team .single_member:hover .author_decs {
-    bottom: 30px; }
 
 /* End Team Area css
 ============================================================================================ */
