@@ -131,7 +131,7 @@ button:focus {
 ============================================================================================ */
 /* Start Gradient Area css
 ============================================================================================ */
-.gradient-bg, .primary-btn:after, #search_input_box, .single_feature:hover, .resources-area .resources-inner .single-success:hover, .service-area, .categories_post:hover .categories_details, .blog_right_sidebar .widget_title, .blog_right_sidebar .search_widget .input-group .form-control, .blog_right_sidebar .newsletter_widget .bbtns, .blog_right_sidebar .tag_cloud_widget ul li a:hover, .blog-pagination .page-item.active .page-link, .blog-pagination .page-link:hover, .contact_form .primary-btn, .single-footer-widget .click-btn {
+.gradient-bg, .primary-btn:after, #search_input_box, .single_feature:hover, .resource-area .resource-inner .single-success:hover, .service-area, .categories_post:hover .categories_details, .blog_right_sidebar .widget_title, .blog_right_sidebar .search_widget .input-group .form-control, .blog_right_sidebar .newsletter_widget .bbtns, .blog_right_sidebar .tag_cloud_widget ul li a:hover, .blog-pagination .page-item.active .page-link, .blog-pagination .page-link:hover, .contact_form .primary-btn, .single-footer-widget .click-btn {
   background: -webkit-linear-gradient(90deg, #f13d80 0%, #f48464 100%);
   background: -moz-linear-gradient(90deg, #f13d80 0%, #f48464 100%);
   background: -ms-linear-gradient(90deg, #f13d80 0%, #f48464 100%);
@@ -828,10 +828,10 @@ button:focus {
     .single_feature:hover p {
       color: #fff; }
 
-#resources .features_area {
+#resource .features_area {
   margin-top: 120px; }
   @media (max-width: 991px) {
-    #resources .features_area {
+    #resource .features_area {
       margin-top: 80px; } }
 
 /* End Features Area css
@@ -900,40 +900,40 @@ button:focus {
           margin-bottom: 5px;
           color: #222222; }
 
-.resources-area {
+.resource-area {
   margin-top: -25.5%; }
   @media (max-width: 1920px) {
-    .resources-area {
+    .resource-area {
       margin-top: -17.7%; } }
   @media (max-width: 1680px) {
-    .resources-area {
+    .resource-area {
       margin-top: -20.3%; } }
   @media (max-width: 1500px) {
-    .resources-area {
+    .resource-area {
       margin-top: -22.7%; } }
   @media (max-width: 1440px) {
-    .resources-area {
+    .resource-area {
       margin-top: -23.6%; } }
   @media (max-width: 1380px) {
-    .resources-area {
+    .resource-area {
       margin-top: -24.6%; } }
   @media (max-width: 1200px) {
-    .resources-area {
+    .resource-area {
       margin-top: -28.5%; } }
   @media (max-width: 1024px) {
-    .resources-area {
+    .resource-area {
       margin-top: -40.6%; } }
   @media (max-width: 991px) {
-    .resources-area {
+    .resource-area {
       margin-top: 0; } }
-  .resources-area .resources-inner .row {
+  .resource-area .resource-inner .row {
     margin-left: -30px;
     margin-right: -30px; }
     @media (max-width: 767px) {
-      .resources-area .resources-inner .row {
+      .resource-area .resource-inner .row {
         margin-left: -15px;
         margin-right: -15px; } }
-  .resources-area .resources-inner .single-success {
+  .resource-area .resource-inner .single-success {
     background: #f4f8ff;
     padding: 40px 30px;
     margin-top: 30px;
@@ -942,18 +942,18 @@ button:focus {
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
     border-radius: 5px; }
-    .resources-area .resources-inner .single-success h5 {
+    .resource-area .resource-inner .single-success h5 {
       font-size: 18px;
       -webkit-transition: all 0.3s ease 0s;
       -moz-transition: all 0.3s ease 0s;
       -o-transition: all 0.3s ease 0s;
       transition: all 0.3s ease 0s; }
-    .resources-area .resources-inner .single-success p {
+    .resource-area .resource-inner .single-success p {
       margin: 0; }
-    .resources-area .resources-inner .single-success:hover {
+    .resource-area .resource-inner .single-success:hover {
       box-shadow: 0 10px 30px rgba(39, 0, 110, 0.3);
       color: #fff; }
-      .resources-area .resources-inner .single-success:hover h5 {
+      .resource-area .resource-inner .single-success:hover h5 {
         color: #fff; }
 
 /* End video Area css
@@ -1073,50 +1073,7 @@ button:focus {
 
 /* End service Area css
 ============================================================================================ */
-/* Start Team Area css
-============================================================================================ */
-.team-area {
-  padding-top: 90px; }
 
-.single_member {
-  text-align: center;
-  box-shadow: none; }
-  @media (max-width: 991px) {
-    .single_member {
-      margin-bottom: 30px; } }
-  .single_member .author_decs {
-    display: inline-block;
-    padding: 25px 15px;
-    position: absolute;
-    left: 50%;
-    bottom: -23%;
-    background: #fff;
-    transform: translateX(-50%);
-    width: 65%;
-    -webkit-transition: all 0.3s ease 0s;
-    -moz-transition: all 0.3s ease 0s;
-    -o-transition: all 0.3s ease 0s;
-    transition: all 0.3s ease 0s;
-    opacity: 0;
-    visibility: hidden; }
-    @media (max-width: 991px) {
-      .single_member .author_decs {
-        padding: 25px 5px; } }
-    .single_member .author_decs h4 {
-      margin: 20px 0px 0px; }
-    .single_member .author_decs p {
-      margin: 0px; }
-  .single_member:hover .author_decs {
-    bottom: 0;
-    opacity: 1;
-    visibility: visible; }
-    @media (max-width: 991px) {
-      .single_member:hover .author_decs {
-        bottom: 30px; } }
-
-
-/* End Team Area css
-============================================================================================ */
 /* Start CTA Area css
 ============================================================================================ */
 .cta-area {
@@ -2035,10 +1992,10 @@ button:focus {
 .generic-content h1 {
   font-weight: 600; }
 
-.resources-generic-area {
+.resource-generic-area {
   background: #fff; }
 
-.resources-generic-area p {
+.resource-generic-area p {
   margin-bottom: 20px; }
 
 .white-bg {
@@ -3214,10 +3171,10 @@ h6 {
       .copyright .social-icons a i:hover {
         color: #f13d80; }
 
-#resources .footer-area {
+#resource .footer-area {
   margin-top: 120px; }
   @media (max-width: 991px) {
-    #resources .footer-area {
+    #resource .footer-area {
       margin-top: 80px; } }
 
 /*---------------------------------------------------- */
