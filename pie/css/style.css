@@ -564,7 +564,7 @@ button:focus {
     position: absolute; }
 
   .header_area .navbar {
-    background: #f13d80; }
+    background: linear-gradient(45deg, #f13d80 0%, #f48464 100%);; }
     .header_area .navbar .navbar-nav .social-icons {
       margin-top: 20px; }
 
@@ -1073,7 +1073,50 @@ button:focus {
 
 /* End service Area css
 ============================================================================================ */
+/* Start Team Area css
+============================================================================================ */
+.team-area {
+  padding-top: 90px; }
 
+.single_member {
+  text-align: center;
+  box-shadow: none; }
+  @media (max-width: 991px) {
+    .single_member {
+      margin-bottom: 30px; } }
+  .single_member .author_decs {
+    display: inline-block;
+    padding: 25px 15px;
+    position: absolute;
+    left: 50%;
+    bottom: -23%;
+    background: #fff;
+    transform: translateX(-50%);
+    width: 65%;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    opacity: 0;
+    visibility: hidden; }
+    @media (max-width: 991px) {
+      .single_member .author_decs {
+        padding: 25px 5px; } }
+    .single_member .author_decs h4 {
+      margin: 20px 0px 0px; }
+    .single_member .author_decs p {
+      margin: 0px; }
+  .single_member:hover .author_decs {
+    bottom: 0;
+    opacity: 1;
+    visibility: visible; }
+    @media (max-width: 991px) {
+      .single_member:hover .author_decs {
+        bottom: 30px; } }
+
+
+/* End Team Area css
+============================================================================================ */
 /* Start CTA Area css
 ============================================================================================ */
 .cta-area {
