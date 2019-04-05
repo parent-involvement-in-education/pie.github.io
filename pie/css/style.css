@@ -131,7 +131,7 @@ button:focus {
 ============================================================================================ */
 /* Start Gradient Area css
 ============================================================================================ */
-.gradient-bg, .primary-btn:after, #search_input_box, .single_feature:hover, .resources-area .resources-inner .single-success:hover, .service-area, .categories_post:hover .categories_details, .blog_right_sidebar .widget_title, .blog_right_sidebar .search_widget .input-group .form-control, .blog_right_sidebar .newsletter_widget .bbtns, .blog_right_sidebar .tag_cloud_widget ul li a:hover, .blog-pagination .page-item.active .page-link, .blog-pagination .page-link:hover, .contact_form .primary-btn, .single-footer-widget .click-btn {
+.gradient-bg, .primary-btn:after, #search_input_box, .single_feature:hover, .resources-area .resources-inner .single-success:hover, .service-area, .categories_post:hover .categories_details, .blog_right_sidebar .widget_title, .blog_right_sidebar .search_widget .input-group .form-control, .blog_right_sidebar .newsletter_widget .bbtns, .blog_right_sidebar .tag_cloud_widget ul li a:hover, .blog-pagination .page-item.active .page-link, .blog-pagination .page-link:hover, .about_form .primary-btn, .single-footer-widget .click-btn {
   background: -webkit-linear-gradient(90deg, #f13d80 0%, #f48464 100%);
   background: -moz-linear-gradient(90deg, #f13d80 0%, #f48464 100%);
   background: -ms-linear-gradient(90deg, #f13d80 0%, #f48464 100%);
@@ -1736,15 +1736,15 @@ button:focus {
 /*============ End Blog Single Styles  =============*/
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
-/*============== contact_area css ================*/
+/*============== about_area css ================*/
 .mapBox {
   height: 420px;
   margin-bottom: 80px; }
 
-.contact_info .info_item {
+.about_info .info_item {
   position: relative;
   padding-left: 45px; }
-  .contact_info .info_item i {
+  .about_info .info_item i {
     position: absolute;
     left: 0;
     top: 0;
@@ -1752,23 +1752,23 @@ button:focus {
     line-height: 24px;
     color: #f13d80;
     font-weight: 600; }
-  .contact_info .info_item h6 {
+  .about_info .info_item h6 {
     font-size: 16px;
     line-height: 24px;
     color: "Raleway", sans-serif;
     font-weight: bold;
     margin-bottom: 0px;
     color: #222222; }
-    .contact_info .info_item h6 a {
+    .about_info .info_item h6 a {
       color: #222222; }
-  .contact_info .info_item p {
+  .about_info .info_item p {
     font-size: 14px;
     line-height: 24px;
     padding: 2px 0px; }
 
-.contact_form .form-group {
+.about_form .form-group {
   margin-bottom: 10px; }
-  .contact_form .form-group .form-control {
+  .about_form .form-group .form-control {
     font-size: 13px;
     line-height: 26px;
     color: #999;
@@ -1776,36 +1776,36 @@ button:focus {
     font-family: "Raleway", sans-serif;
     border-radius: 0px;
     padding-left: 20px; }
-    .contact_form .form-group .form-control:focus {
+    .about_form .form-group .form-control:focus {
       box-shadow: none;
       outline: none; }
-    .contact_form .form-group .form-control.placeholder {
+    .about_form .form-group .form-control.placeholder {
       color: #999; }
-    .contact_form .form-group .form-control:-moz-placeholder {
+    .about_form .form-group .form-control:-moz-placeholder {
       color: #999; }
-    .contact_form .form-group .form-control::-moz-placeholder {
+    .about_form .form-group .form-control::-moz-placeholder {
       color: #999; }
-    .contact_form .form-group .form-control::-webkit-input-placeholder {
+    .about_form .form-group .form-control::-webkit-input-placeholder {
       color: #999; }
-  .contact_form .form-group textarea {
+  .about_form .form-group textarea {
     resize: none; }
-    .contact_form .form-group textarea.form-control {
+    .about_form .form-group textarea.form-control {
       height: 134px; }
-.contact_form .primary-btn {
+.about_form .primary-btn {
   margin-top: 20px;
   border: 0;
   border-radius: 50px;
   color: #fff; }
-  .contact_form .primary-btn:after {
+  .about_form .primary-btn:after {
     border-radius: 50px; }
-  .contact_form .primary-btn:hover {
+  .about_form .primary-btn:hover {
     background: #fff;
     color: #222222; }
-    .contact_form .primary-btn:hover:after {
+    .about_form .primary-btn:hover:after {
       background: #f4f8ff;
       border: 1px solid #eeeeee; }
 
-/* Contact Success and error Area css
+/* about Success and error Area css
 ============================================================================================ */
 .modal-message .modal-dialog {
   position: absolute;
@@ -1838,7 +1838,7 @@ button:focus {
     .modal-message .modal-dialog .modal-content .modal-header p {
       display: block; }
 
-/* End Contact Success and error Area css
+/* End about Success and error Area css
 ============================================================================================ */
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
