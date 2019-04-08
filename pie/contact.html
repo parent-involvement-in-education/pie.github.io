@@ -20,7 +20,7 @@
 	<link rel="stylesheet" href="css/style.css">
 </head>
 
-<body id="service">
+<body>
 
 	<!--================ Start Header Menu Area =================-->
 	<header class="header_area">
@@ -54,9 +54,9 @@
 									<li class="nav-item"><a class="nav-link" href="elements.html">Videos</a></li>
 								</ul>
 							</li>
-							<li class="nav-item active"><a class="nav-link" href="get_involved.html">Get Involved</a></li>
+							<li class="nav-item"><a class="nav-link" href="get_involved.html">Get Involved</a></li>
 
-							<li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+							<li class="nav-item active"><a class="nav-link" href="contact.html">Contact</a></li>
 						</ul>
 						<ul class="nav navbar-nav ml-auto">
 							<div class="social-icons d-flex align-items-center">
@@ -91,115 +91,72 @@
 				<div class="banner_content text-center">
 					<div class="page_link">
 						<a href="index.html">Home</a>
-						<a href="get_involved.html">Get Involved</a>
+						<a href="contact.html">Contact</a>
 					</div>
-					<h2>Get Involved</h2>
+					<h2>Contact</h2>
 				</div>
 			</div>
 		</div>
 	</section>
 	<!--================End Home Banner Area =================-->
 
-	<!--================ Start service-2 Area =================-->
-	<section class="service-area-2 section_gap">
+	<!--================Contact Area =================-->
+	<section class="contact_area section_gap">
 		<div class="container">
-			<div class="row align-items-center justify-content-center">
-				<div class="col-lg-6">
-					<div class="service-2-left">
-						<div class="get-know">
-							<p class="df-color">Get to Know Project Estimate?</p>
-							<h1>Get to Know Project Estimate?</h1>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusmod tempor incididunt labore dolore magna aliqua enim minim veniam quis nostrud.</p>
+			<div id="mapBox" class="mapBox" data-lat="40.701083" data-lon="-74.1522848" data-zoom="13" data-info="PO Box CT16122 Collins Street West, Victoria 8007, Australia."
+			 data-mlat="40.701083" data-mlon="-74.1522848">
+			</div>
+			<div class="row">
+				<div class="col-lg-3">
+					<div class="contact_info">
+						<div class="info_item">
+							<i class="lnr lnr-home"></i>
+							<h6>California, United States</h6>
+							<p>Santa monica bullevard</p>
 						</div>
-						<div class="author-lacture">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusmod tempor incididunt labore dolore magna aliqua enim minim veniam quis nostrud. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusmod tempor incididunt labore dolore
-								magna aliqua enim minim veniam quis nostrud. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusmod tempor incididunt labore dolore magna aliqua enim minim veniam quis nostrud.
-							</p>
-							<div class="author-title">
-								<div class="thumb"><img src="img/resources-author.png" alt=""></div>
-								<div class="a-desc">
-									<h6>Marvel Maison</h6>
-									<p>Chief Executive, Amazon</p>
-								</div>
-							</div>
+						<div class="info_item">
+							<i class="lnr lnr-phone-handset"></i>
+							<h6><a href="#">00 (440) 9865 562</a></h6>
+							<p>Mon to Fri 9am to 6 pm</p>
+						</div>
+						<div class="info_item">
+							<i class="lnr lnr-envelope"></i>
+							<h6><a href="#">support@colorlib.com</a></h6>
+							<p>Send us your query anytime!</p>
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-6">
-					<div class="service-2-right">
-						<div class="row">
-							<div class="col-lg-6 col-md-6 col-sm-6">
-								<div class="left-image">
-									<div class="s-img"><img class="img-fluid" src="img/service/service4.jpg" alt=""></div>
-									<div class="s-img"><img class="img-fluid" src="img/service/service5.jpg" alt=""></div>
-								</div>
+				<div class="col-lg-9">
+					<form class="row contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+						<div class="col-md-6">
+							<div class="form-group">
+								<input type="text" class="form-control" id="name" name="name" placeholder="Enter your name"
+                                onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'">
 							</div>
-							<div class="col-lg-6 col-md-6 col-sm-6">
-								<div class="right-image">
-									<div class="s-img"><img class="img-fluid" src="img/service/service6.jpg" alt=""></div>
-									<div class="s-img"><img class="img-fluid" src="img/service/service7.jpg" alt=""></div>
-								</div>
+							<div class="form-group">
+								<input type="email" class="form-control" id="email" name="email" placeholder="Enter email address"
+                                onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'">
+							</div>
+							<div class="form-group">
+								<input type="text" class="form-control" id="subject" name="subject" placeholder="Enter Subject"
+                                onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Subject'">
 							</div>
 						</div>
-					</div>
+						<div class="col-md-6">
+							<div class="form-group">
+								<textarea class="form-control" name="message" id="message" rows="1" placeholder="Enter Message"
+                                onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Message'"></textarea>
+							</div>
+						</div>
+						<div class="col-md-12 text-right">
+							<button type="submit" value="submit" class="primary-btn text-uppercase">Send Message</button>
+						</div>
+					</form>
 				</div>
 			</div>
 		</div>
 	</section>
-	<!--================ End service-2 Area =================-->
-
-	<!--================ Start service Area =================-->
-	<section class="service-area section_gap">
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-lg-7">
-					<div class="main_title">
-						<h1>Services Offered By Us</h1>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusmod tempor incididunt labore dolore magna aliqua enim minim veniam quis nostrud.</p>
-					</div>
-				</div>
-			</div>
-			<div class="row justify-content-center">
-				<!-- single service -->
-				<div class="col-lg-4 col-md-4 col-sm-6">
-					<div class="single-service">
-						<div class="service-thumb">
-							<img class="img-fluid" src="img/service/service1.jpg" alt="">
-						</div>
-						<div class="service-details">
-							<h5><a href="#">Get to Know Project Estimate?</a></h5>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusmod tempor incididunt labore dolore magna aliqua enim minim veniam quis nostrud. Lorem ipsum dolor sit amet.</p>
-						</div>
-					</div>
-				</div>
-				<!-- single service -->
-				<div class="col-lg-4 col-md-4 col-sm-6">
-					<div class="single-service">
-						<div class="service-thumb">
-							<img class="img-fluid" src="img/service/service2.jpg" alt="">
-						</div>
-						<div class="service-details">
-							<h5><a href="#">Get to Know Project Estimate?</a></h5>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusmod tempor incididunt labore dolore magna aliqua enim minim veniam quis nostrud. Lorem ipsum dolor sit amet.</p>
-						</div>
-					</div>
-				</div>
-				<!-- single service -->
-				<div class="col-lg-4 col-md-4 col-sm-6">
-					<div class="single-service">
-						<div class="service-thumb">
-							<img class="img-fluid" src="img/service/service3.jpg" alt="">
-						</div>
-						<div class="service-details">
-							<h5><a href="#">Get to Know Project Estimate?</a></h5>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusmod tempor incididunt labore dolore magna aliqua enim minim veniam quis nostrud. Lorem ipsum dolor sit amet.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--================ End service Area =================-->
+	<!--================Contact Area =================-->
 
 	<!--================  start footer Area =================-->
 	<footer class="footer-area">
@@ -288,6 +245,38 @@
 		</div>
 	</footer>
 	<!--================ End footer Area =================-->
+
+	<!--================Contact Success and Error message Area =================-->
+	<div id="success" class="modal modal-message fade" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<i class="fa fa-close"></i>
+					</button>
+					<h2>Thank you</h2>
+					<p>Your message is successfully sent...</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Modals error -->
+
+	<div id="error" class="modal modal-message fade" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<i class="fa fa-close"></i>
+					</button>
+					<h2>Sorry !</h2>
+					<p> Something went wrong </p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--================End Contact Success and Error message Area =================-->
 
 	<!-- Optional JavaScript -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
