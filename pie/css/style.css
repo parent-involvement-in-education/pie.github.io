@@ -859,27 +859,24 @@ button:focus {
     height: 100%; }
   .pupilpath .play-btn {
     z-index: 2; }
-    
-.video-left {
-  background: url(../img/video-bg.jpg) no-repeat center;
+
+.pie {
+  background: url(../img/pie-matters.png) no-repeat center;
   background-size: cover;
   height: 350px;
   border-radius: 10px;
   z-index: 1; }
   
-  .video-left.overlay {
+  .pie.overlay {
     border-radius: 10px; }
-    .video-left.overlay:after {
+    .pie.overlay:after {
       background: #000;
       opacity: .3;
       border-radius: 10px; }
-  .video-left .video-inner {
+  .pie .video-inner {
     height: 100%; }
-  .video-left .play-btn {
+  .pie .play-btn {
     z-index: 2; }
-  @media (max-width: 800px) {
-    .video-left {
-      margin-top: 100px; } }
 
 .video-right {
   margin-top: 70px;
@@ -2129,7 +2126,7 @@ h6 {
   margin-right: 0; }
 
 .circle {
-  border-radius: 20px; }
+  border-radius: 200px; }
 
 .genric-btn {
   display: inline-block;
