@@ -719,7 +719,7 @@ button:focus {
   min-height: 300px; }
   .banner_area .banner_inner {
     position: relative;
-    background: url(../img/banner/common-banner.jpg) no-repeat center center;
+    background: url(../img/banner.jpg) no-repeat center center;
     background-size: cover;
     width: 100%;
     min-height: 300px;
@@ -729,7 +729,7 @@ button:focus {
         padding-top: 70px; } }
     .banner_area .banner_inner.overlay:after {
       background: #000;
-      opacity: .3; }
+      opacity: .38; }
     .banner_area .banner_inner .banner_content h2 {
       color: #fff;
       font-size: 48px;
