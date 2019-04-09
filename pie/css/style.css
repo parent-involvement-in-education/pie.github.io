@@ -878,6 +878,24 @@ button:focus {
   .pie .play-btn {
     z-index: 2; }
 
+.tax {
+  background: url(../img/tax.jpg) no-repeat center;
+  background-size: cover;
+  height: 350px;
+  border-radius: 10px;
+  z-index: 1; }
+  
+  .tax.overlay {
+    border-radius: 10px; }
+    .tax.overlay:after {
+      background: #000;
+      opacity: .3;
+      border-radius: 10px; }
+  .tax .video-inner {
+    height: 100%; }
+  .tax .play-btn {
+    z-index: 2; }
+    
 .video-right {
   margin-top: 70px;
   padding-left: 30px; }
