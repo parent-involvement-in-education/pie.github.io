@@ -1241,6 +1241,32 @@ button:focus {
   z-index: 2;
 }
 
+.caremonkey {
+  background: url(../img/caremonkey.png) no-repeat center;
+  background-size: cover;
+  height: 350px;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.caremonkey.overlay {
+  border-radius: 10px;
+}
+
+.caremonkey.overlay:after {
+  background: #000;
+  opacity: .3;
+  border-radius: 10px;
+}
+
+.caremonkey .video-inner {
+  height: 100%;
+}
+
+.caremonkey .play-btn {
+  z-index: 2;
+}
+
 .pie {
   background: url(../img/pie-matters.png) no-repeat center;
   background-size: cover;
