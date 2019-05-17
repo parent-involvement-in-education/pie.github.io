@@ -157,17 +157,17 @@ button:focus {
 }
 
 .section_gap_top {
-  padding-top: 120px;
+  padding-top: 4%;
 }
 
 @media (max-width: 991px) {
   .section_gap_top {
-    padding-top: 80px;
+    padding-top: 8%;
   }
 }
 
 .section_gap_bottom {
-  padding-bottom: 120px;
+  padding-bottom: 5%;
 }
 
 @media (max-width: 991px) {
@@ -4350,14 +4350,14 @@ h6 {
 }
 
 .footer-area .footer_top {
-  padding-bottom: 80px;
+  padding-bottom: 2%
 }
 
-@media (max-width: 991px) {
-  .footer-area .footer_top {
-    padding-bottom: 40px;
-  }
-}
+/*@media (max-width: 991px) {*/
+/*  .footer-area .footer_top {*/
+/*    padding-bottom: 40px;*/
+/*  }*/
+/*}*/
 
 .instafeed {
   margin: 0px;
@@ -4535,18 +4535,6 @@ h6 {
     text-align: center;
     margin-top: 20px;
   }
-}
-
-.copyright .social-icons a {
-  padding-right: 15px;
-}
-
-.copyright .social-icons a i {
-  color: #999999;
-}
-
-.copyright .social-icons a i:hover {
-  color: #f13d80;
 }
 
 #resources .footer-area {
